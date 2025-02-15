@@ -106,7 +106,7 @@ const Projects = () => {
               </div>
               {project.technologies.map((technology, index) => (
                 <span
-                  className="mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300"
+                  className="mr-2 mt-4 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300 inline-flex flex-wrap"
                   key={index}
                 >
                   {technology}
