@@ -53,7 +53,7 @@ const Projects = () => {
                     alt={project.projectName}
                   >
                     <Android />
-                    <span className="ml-2 mr-2 text-stone-350">Android</span>|
+                    <span className="ml-2 mr-2 text-stone-400">Android</span>|
                   </a>
                 ) : (
                   <></>
@@ -67,7 +67,7 @@ const Projects = () => {
                     alt={project.projectName}
                   >
                     <Apple />
-                    <span className="ml-2 mr-2 text-stone-350">iOS</span>|
+                    <span className="ml-2 mr-2 text-stone-400">iOS</span>|
                   </a>
                 ) : (
                   <></>
@@ -81,7 +81,7 @@ const Projects = () => {
                     alt={project.projectName}
                   >
                     <Web color="#ffffff" />
-                    <span className="ml-2 mr-2 text-stone-350">PWA</span>
+                    <span className="ml-2 mr-2 text-stone-400">PWA</span>
                     {project.companyUrl.length > 0 ? "|" : ""}
                   </a>
                 ) : (
@@ -96,7 +96,7 @@ const Projects = () => {
                     alt={project.projectName}
                   >
                     <Web color="#ffffff" />
-                    <span className="ml-2 text-stone-350">
+                    <span className="ml-2 text-stone-400">
                       {project.projectName}
                     </span>
                   </a>
@@ -106,7 +106,7 @@ const Projects = () => {
               </div>
               {project.technologies.map((technology, index) => (
                 <span
-                  className="mr-2 mt-4 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300 inline-flex flex-wrap"
+                  className="mr-2 mt-4 rounded bg-stone-900 p-2 text-sm font-medium text-stone-400 inline-flex flex-wrap"
                   key={index}
                 >
                   {technology}
