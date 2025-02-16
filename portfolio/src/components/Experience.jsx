@@ -1,6 +1,6 @@
 import { EXPERIENCES } from "../constants";
 import { motion } from "framer-motion";
-import OpenLink from "./svgs/Openlink";
+import OpenLink from "./svgs/OpenLink";
 
 const Experience = () => {
   return (
