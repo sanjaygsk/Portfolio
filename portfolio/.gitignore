@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 firebase.json
 firebase.js
+.yarn
+.firebase
+yarn.lock

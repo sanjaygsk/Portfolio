@@ -5,7 +5,7 @@ const Github = (props) => (
     viewBox="0 0 256 250"
     width="1em"
     height="1em"
-    fill="#fff"
+    fill="rgb(214 211 209)"
     xmlns="http://www.w3.org/2000/svg"
     preserveAspectRatio="xMidYMid"
     {...props}

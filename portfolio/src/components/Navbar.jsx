@@ -1,5 +1,7 @@
 import LinkedIn from "./svgs/LinkedIn";
 import ProfilePhoto from "../assets/logo.png";
+import DailyDev from "./svgs/DailyDev";
+import Github from "./svgs/Github";
 
 const Navbar = () => {
   return (
@@ -17,6 +19,22 @@ const Navbar = () => {
           area-label="Linked In"
         >
           <LinkedIn />
+        </a>
+        <a
+          href="https://github.com/sanjaygsk"
+          target="_blank"
+          rel="noopener noreferrer"
+          area-label="Linked In"
+        >
+          <Github />
+        </a>
+        <a
+          href="https://dly.to/mbsMLX6KLlk"
+          target="_blank"
+          rel="noopener noreferrer"
+          area-label="Linked In"
+        >
+          <DailyDev />
         </a>
       </div>
     </nav>
