@@ -1,6 +1,5 @@
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
-import OpenLink from "./svgs/Openlink";
 import Android from "./svgs/Android";
 import Apple from "./svgs/Apple";
 import Web from "./svgs/Web";
